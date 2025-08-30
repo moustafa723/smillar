@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TimeMaster - Countdown Timer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>TimeMaster</h1>
+    <div class="controls">
+      <label for="timeInput">Set Time (MM:SS)</label>
+      <input id="timeInput" type="text" placeholder="05:00" maxlength="5" />
+    </div>
+    <div id="display" class="display">00:00</div>
+    <div class="buttons">
+      <button id="startBtn">Start</button>
+      <button id="pauseBtn" disabled>Pause</button>
+      <button id="resetBtn" disabled>Reset</button>
+    </div>
+    <p class="note">• Timer turns red under 10 seconds • Font: Courier New 28px</p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
